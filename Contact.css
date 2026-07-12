@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo2{
+    height:90px;
+    Width:200px;
+}
+body{
+    background-color: beige;
+    margin: 0;
+}
+nav{
+    background-color: #760031;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display: flex; 
+}
+li{
+    padding-right: 15px; 
+
+}
+.navlinks{
+color: #ffffff;
+font-size: 18px ;
+text-decoration: none;
+}
+.navlinks:hover{
+text-decoration: underline;
+color: #f8ebab;
+}
+.btn{
+    border: solid 2px;
+     height: 44px;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-color: #f8ebab;
+    color: #f8ebab;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: #f8ebab;
+    color: #760031;
+}
+.section{
+    padding: 10px;
+    }
+
+    .contact-detail {
+      margin-bottom: 25px;
+    }
+
+    .contact-detail {
+      display: block;
+      color:black;
+      margin-bottom: 5px;
+      font-size: 0.85rem;
+      letter-spacing: 1px;
+    
+    }
+    .button{
+        background-color: #760031;
+        color: #f8ebab;
+        border: solid 2px;
+        padding: 15px 15px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    .button:hover{
+        background-color: black;
+        color: #f8ebab;
+    }
+    .splitcontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+        max-width: 1200px;
+    }
+    .reservation{
+        background-color: #760031;
+        color: #f8ebab;
+        align-items: right;
+        max-width: 600px;
+
+    }
+    .contact-form{
+        padding: 20px;
+    }
+    .contact{
+        background-color: #f8ebab;
+        color: #760031;
+        align-items: left;
+    }
+    .contact-info{
+    padding: 20px;
+    }
+    .icon{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+    .row{
+        display: flex;
+        gap: 100px;
+        
+    }
+    .col{
+        flex: 1;
+    }
+    .input{
+        border: 1px solid ;
+        background-color: #f8ebab;
+        border-radius: 4px;
+        width: 100%;
+        font-size: 16px;
+        font-style: italic;
+        color: #760031;
+    }
+    .navlink{
+        text-decoration: none;
+        color: #ffffff;
+
+    }
+    
+.site-footer {
+  background: #fff;
+  padding: 60px 20px;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer-card {
+  border-radius: 24px;
+  padding: 32px;
+  flex: 1 1 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+    .hours-card {
+  background: #f8ebab;
+  color: #760031;
+  flex-direction: row;
+  gap: 24px;
+}
+.hours-card .brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.hours-card .logo {
+  width: 50px;
+  height: 50px;
+}
+
+.hours h1 {
+  font-size: 25px;
+  margin: 0 0 12px;
+}
+
+.hours p {
+  margin: 4px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.hours .note {
+  margin-top: 12px;
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.credits {
+  margin-top: 24px;
+  font-size: 13px;
+}
+
+.credits a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.hours-card .map img{
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  margin-left: auto;
+}
+.footer{
+    background-color: #760031;
+    color: #f8ebab;
+    padding: 20px;
+    text-align: center;
+}
+.footer-link{
+    color: #f8ebab;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+.footer-links-card {
+  background: #760031;
+  color: white;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 400px;
+  font-family: 'Poppins', sans-serif;
+  margin:0 auto;
+}
+
+.footer-links-card h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.links-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 40px;
+  margin-bottom: 25px;
+}
+
+.links-col a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 6px 0;
+  font-size: 1rem;
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+
+.links-col a:hover {
+  opacity: 1;
+}
+
+.links-col a.active {
+  color: #f8ebab; 
+  font-weight: 500;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icons a {
+  background: #f8ebab;
+  color: #760031;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.social-icons a:hover {
+  transform: translateY(-2px);
+}
