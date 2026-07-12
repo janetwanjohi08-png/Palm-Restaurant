@@ -60,7 +60,7 @@ transition: 0.3s linear;
 }
 .hero{
     position: relative;
-    background-image: url("IMAGES/download\ \(1\).jpg");
+    background-image: url("IMAGES/download-\(1\).jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
